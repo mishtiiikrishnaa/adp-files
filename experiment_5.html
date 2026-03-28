@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <title>registration form</title>
+        <link rel="stylesheet" href="styles1.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="reg">registration form</div>
+        <div id="form3">
+            <form>
+                <label for="name" class="text">name: </label>
+                <input type="text" class="input" id="name" name="name">
+                <label for="email" class="text">email: </label>
+                <input type="email" class="input" id="email" name="email">
+                <label for="password" class="text">password: </label>  
+                <input type="password" class="input" id="password" name="password">  
+                <label class="text">gender: </label>  
+                <div id="gen">
+                    <input type="radio" id="femme" name="gender" value="femme">
+                    <label for="femme">femme/she</label>  
+                    <input type="radio" id="homme" name="gender" value="homme">
+                    <label for="homme">homme/he</label>  
+                    <input type="radio" id="iel" name="gender" value="iel">
+                    <label for="iel">iel/it</label>  
+                </div>
+                <label for="course" class="text">course: </label>  
+                <input type="text" class="input" id="course" name="course">  
+                <input type="submit" value="submit" id="submit2" onclick="submitform1()">
+            </form>
+        </div>
+        </div>
+    </body>
+</html>
